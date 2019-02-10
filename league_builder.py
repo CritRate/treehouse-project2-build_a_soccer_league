@@ -33,9 +33,9 @@ def write_teams(teams):
 if __name__ == "__main__":
 
     # create teams as dictionary
-    sharks = {'team': list(), 'team_name': 'sharks'}
-    raptors = {'team': list(), 'team_name': 'raptors'}
-    dragons = {'team': list(), 'team_name': 'dragons'}
+    sharks = {'team': list(), 'team_name': 'SHARKS'}
+    raptors = {'team': list(), 'team_name': 'RAPTORS'}
+    dragons = {'team': list(), 'team_name': 'DRAGONS'}
     player_exp = list()
     player_nonexp = list()
 

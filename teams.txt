@@ -1,4 +1,4 @@
-sharks
+SHARKS
 -------
 Herschel Krustofski, YES, Hyman and Rachel Krustofski
 Arnold Willis, NO, Claire Willis
@@ -8,7 +8,7 @@ Bill Bon, YES, Sara and Jenny Bon
 Kimmy Stein, NO, Bill and Hillary Stein
 -------
 
-raptors
+RAPTORS
 -------
 Les Clay, YES, Wynonna Brown
 Chloe Alaska, NO, David and Jamie Alaska
@@ -18,7 +18,7 @@ Jill Tanner, YES, Clara Tanner
 Matt Gill, NO, Charles and Sylvia Gill
 -------
 
-dragons
+DRAGONS
 -------
 Phillip Helm, YES, Thomas Helm and Eva Jones
 Ben Finkelstein, NO, Aaron and Jill Finkelstein
