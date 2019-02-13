@@ -49,7 +49,7 @@ if __name__ == "__main__":
             else:
                 player_nonexp.append(player)
 
-    # evenly divide players
+    # evenly divide players (csv must contains 18 players (9 exp and 9 non-experienced))
     for _ in range(0, 3):
         sharks['team'].append(player_exp.pop())
         raptors['team'].append(player_exp.pop())
