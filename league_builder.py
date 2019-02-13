@@ -7,10 +7,11 @@ def welcome(player, team):
 
     fhandle = open(fname, 'w')
 
+    # simple letter
     fhandle.write('Dear {}'.format(player['Guardian Name(s)']) + '\n')
-    fhandle.write('Player name: {}'.format(player['Name']) + '\n')
-    fhandle.write('Team name: {}'.format(team.upper()) + '\n')
-    fhandle.write('Date and Time of first practice 27.5.2025 10:00' + '\n')
+    fhandle.write('Welcome to team: {}, {}'.format(
+        team.upper(), player['Name']) + '\n')
+    fhandle.write('Your first practice wil be held at 27.5.2025 10:00' + '\n')
     fhandle.close()
 
 
