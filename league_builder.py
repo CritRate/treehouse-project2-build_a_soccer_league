@@ -9,8 +9,8 @@ def welcome(player, team):
 
     # simple letter
     fhandle.write('Dear {}'.format(player['Guardian Name(s)']) + '\n')
-    fhandle.write('Welcome to team: {}, {}'.format(
-        team.upper(), player['Name']) + '\n')
+    fhandle.write('{}, welcome to team: {}!'.format(player['Name'],
+                                                    team.upper()) + '\n')
     fhandle.write('Your first practice wil be held at 27.5.2025 10:00' + '\n')
     fhandle.close()
 
@@ -49,7 +49,7 @@ if __name__ == "__main__":
             else:
                 player_nonexp.append(player)
 
-    # evenly divide players (csv must contains 18 players (9 exp and 9 non-experienced))
+    # evenly divide players (csv must contains 18 players (9 exp and 9 non-experienced)
     for _ in range(0, 3):
         sharks['team'].append(player_exp.pop())
         raptors['team'].append(player_exp.pop())
